@@ -1,0 +1,33 @@
+
+$rounded_default: 5px;
+
+@mixin rounded($amount: $rounded_default) {
+  -moz-border-radius   : $amount;
+  -webkit-border-radius: $amount;
+  -o-border-radius     : $amount;
+  border-radius        : $amount;
+}
+
+@mixin smoothen($typ, $tid, $ease) {
+  -webkit-transition: $typ $tid $ease;
+  -moz-transition   : $typ $tid $ease;
+  -o-transition     : $typ $tid $ease;
+  -ms-transition    : $typ $tid $ease;
+  transition        : $typ $tid $ease;
+}
+
+@mixin skala(){
+  -webkit-transition:all 600ms cubic-bezier(.4,.1,.4,1) 100ms;
+  -moz-transition   :all 600ms cubic-bezier(.4,.1,.4,1) 100ms;
+  -o-transition     :all 600ms cubic-bezier(.4,.1,.4,1) 100ms;
+  transition        :all 600ms cubic-bezier(.4,.1,.4,1) 100ms;
+}
+
+// Usage:  @include transition(all, 0.2s, ease-in-out);
+@mixin transition($transition-property, $transition-time, $method) {
+    -webkit-transition: $transition-property $transition-time $method;
+    -moz-transition: $transition-property $transition-time $method;
+    -ms-transition: $transition-property $transition-time $method;
+    -o-transition: $transition-property $transition-time $method;
+    transition: $transition-property $transition-time $method;
+}

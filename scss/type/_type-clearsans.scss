@@ -1,0 +1,53 @@
+
+/**
+ * Clear Sans Light
+ */
+@font-face {
+	font-family: 'Clear Sans Light';
+	src: url('../fonts/clearsans-1.00/EOT/ClearSans-Light.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/clearsans-1.00/EOT/ClearSans-Light.eot?iefix') format('eot'), /* IE6-IE8 */
+	     url('../fonts/clearsans-1.00/WOFF/ClearSans-Light.woff') format('woff'), /* Modern Browsers */
+	     url('../fonts/clearsans-1.00/TTF/ClearSans-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('../fonts/clearsans-1.00/SVG/ClearSans-Light.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/**
+ * Clear Sans Medium
+ */
+@font-face {
+	font-family: 'Clear Sans Medium';
+	src: url('../fonts/clearsans-1.00/EOT/ClearSans-Medium.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/clearsans-1.00/EOT/ClearSans-Medium.eot?iefix') format('eot'), /* IE6-IE8 */
+	     url('../fonts/clearsans-1.00/WOFF/ClearSans-Medium.woff') format('woff'), /* Modern Browsers */
+	     url('../fonts/clearsans-1.00/TTF/ClearSans-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('../fonts/clearsans-1.00/SVG/ClearSans-Medium.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/**
+ * Clear Sans Regular
+ */
+@font-face {
+	font-family: 'Clear Sans Regular';
+	src: url('../fonts/clearsans-1.00/EOT/ClearSans-Regular.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/clearsans-1.00/EOT/ClearSans-Regular.eot?iefix') format('eot'), /* IE6-IE8 */
+	     url('../fonts/clearsans-1.00/WOFF/ClearSans-Regular.woff') format('woff'), /* Modern Browsers */
+	     url('../fonts/clearsans-1.00/TTF/ClearSans-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('../fonts/clearsans-1.00/SVG/ClearSans-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/**
+ * Clear Sans Bold
+ */
+@font-face {
+	font-family: 'Clear Sans Bold';
+	src: url('../fonts/clearsans-1.00/EOT/ClearSans-Bold.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/clearsans-1.00/EOT/ClearSans-Bold.eot?iefix') format('eot'), /* IE6-IE8 */
+	     url('../fonts/clearsans-1.00/WOFF/ClearSans-Bold.woff') format('woff'), /* Modern Browsers */
+	     url('../fonts/clearsans-1.00/TTF/ClearSans-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('../fonts/clearsans-1.00/SVG/ClearSans-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+$clearsans_light   : 'Clear Sans Light';
+$clearsans_medium  : 'Clear Sans Medium';
+$clearsans_regular : 'Clear Sans Regular';
+$clearsans_bold    : 'Clear Sans Bold';

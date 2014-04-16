@@ -1,0 +1,32 @@
+/**
+ *  Box sizing
+*/
+* {
+  &,
+  &:before,
+  &:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
+
+/**
+ * Colors
+ */
+$green: #568d5a;
+
+/**
+ * Type settings http://typesettings.io/index.html
+ */
+
+$font-sans: 'Clear Sans Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-serif: 'Clear Sans Medium', 'Times New Roman', serif;
+$font-mono: 'Lucida Console', Monaco, monospace;
+$text-color: $green;
+$base-vertical-unit: 6px;
+$base-line-multi: 4;
+$base-font-size: 16px;
+$ms-ratio: 1.168; // <- Golden ratio (1.414 is default for Typesettings)
+$paragraph-indent: true;
+$paragraph-justify: true;

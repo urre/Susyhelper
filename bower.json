@@ -1,0 +1,17 @@
+{
+  "name": "susyhelper",
+  "version": "0.0.1",
+  "authors": [
+    "Urban Sanden <hej@urre.me>"
+  ],
+  "description": "Dependencies for Susyhelper",
+  "license": "MIT",
+  "dependencies": {
+    "normalize-css": "~3.0.1",
+    "susy": "~2.1.1"
+  },
+  "devDependencies": {
+    "breakpoint-sass": "~2.4.2",
+    "typesettings": "~1.2.0"
+  }
+}

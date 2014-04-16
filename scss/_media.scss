@@ -1,0 +1,26 @@
+object {
+  max-width: 100%;
+  _width: 100%;
+}
+
+img {
+  max-width: 100%;
+  _width   : 100%;
+  height   :auto;
+  width    :auto\9; /* ie8 */
+}
+
+img {
+  border: none;
+  -ms-interpolation-mode: bicubic; /* Improve IE's resizing */
+}
+
+svg:not(:root) {
+  overflow: hidden;
+} /* Correct IE9 overflow */
+
+
+object, iframe {
+  max-width: 100%;
+  _width: 100%;
+}

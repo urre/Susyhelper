@@ -1,0 +1,215 @@
+
+/**
+ * Media query device constants
+ */
+ $mobile                  : 320px;
+ $mobile-horizontal       : 480px;
+ $tablet                  : 768px 1024px;
+ $tablet-portrait         : 768px;
+ $tablet-horizontal       : 1024px;
+ $desktop                 : 1200px;
+ $desktop-wide            : 1500px;
+ $desktop-extra-wide      : 1800px;
+ $desktop-extra-extra-wide: 2560px;
+
+ $griddebug: true;
+
+/**
+ * Susy2 settings ☳
+ */
+ $susy: (
+  columns: 12,
+  gutters: 1/4,
+  math: fluid,
+  gutter-position: after,
+  debug: (
+      image: hide,
+      color: rgba(blue, .1),
+      output: show,
+      toggle: top right,
+      ),
+  );
+
+ $small: (
+  columns: 4,
+  gutters: 1/4,
+  math: fluid,
+  gutter-position: after,
+  debug: (
+      image: hide,
+      color: rgba(blue, .08),
+      output: show,
+      toggle: top right,
+      ),
+  );
+
+ $medium: (
+  columns: 6,
+  gutters: 1/4,
+  math: fluid,
+  gutter-position: after,
+  debug: (
+      image: hide,
+      color: rgba(green, .08),
+      output: show,
+      toggle: top right,
+      ),
+  );
+
+ $large: (
+  columns: 12,
+  gutters: 1/4,
+  math: fluid,
+  gutter-position: after,
+  debug: (
+      image: hide,
+      color: rgba(black, .08),
+      output: show,
+      toggle: top right,
+      ),
+  );
+
+
+%container {
+
+    /**
+     * Change settings per context/breakpoint. A few different options:
+     * https://github.com/ericam/susy/issues/256
+     */
+
+    @include container(76em);
+
+    @include breakpoint($mobile) {
+
+        @if $griddebug == true {
+            @include container($small 94% show-columns);
+        } @else {
+          @include container($small 94%);
+        }
+
+    }
+
+    @include breakpoint($tablet-portrait) {
+
+        @if $griddebug == true {
+            @include container($medium 94% show-columns);
+        } @else {
+          @include container($medium 94%);
+        }
+
+     }
+
+    @include breakpoint($desktop) {
+
+        @if $griddebug == true {
+            @include container($large 76em show-columns);
+        } @else {
+          @include container($large 76em);
+        }
+
+     }
+
+}
+
+/**
+ * Container
+ */
+.c {
+  @extend %container;
+  // @include skala;
+}
+
+@if $griddebug == true {
+  html {
+    background-image: url(http://basehold.it/i/6/ff0000);
+  }
+}
+
+@if $griddebug == true {
+  .c {
+    @include breakpoint($mobile) {
+      &:before {
+        content: 'Mobile portrait 320px: 4 cols';
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 10;
+        background-color: DarkSeaGreen;
+        color: white;
+        font-size: .8em;
+        padding: .4em 1em;
+        font-family: helvetica;
+      }
+    }
+    @include breakpoint($mobile-horizontal) {
+      &:before {
+        content: 'Mobile horizontal 480px: 4 cols';
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 10;
+        background-color: coral;
+        color: white;
+        font-size: .8em;
+        padding: .4em 1em;
+        font-family: helvetica;
+      }
+    }
+    @include breakpoint($tablet-portrait) {
+      &:before {
+        content: 'Tablet portrait 768px: 6 cols';
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 10;
+        background-color: olive;
+        color: white;
+        font-size: .8em;
+        padding: .4em 1em;
+        font-family: helvetica;
+      }
+    }
+    @include breakpoint($tablet-horizontal) {
+      &:before {
+        content: 'Tablet 1024px: 6 cols';
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 10;
+        background-color: green;
+        color: white;
+        font-size: .8em;
+        padding: .4em 1em;
+        font-family: helvetica;
+      }
+    }
+    @include breakpoint($desktop) {
+      &:before {
+        content: 'Desktop > 1170px: 12 cols';
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 10;
+        background-color: blue;
+        color: white;
+        font-size: .8em;
+        padding: .4em 1em;
+        font-family: helvetica;
+      }
+    }
+    @include breakpoint($desktop-wide) {
+      &:before {
+        content: 'Desktop wide > 1500px: 12 cols';
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 10;
+        background-color: red;
+        color: white;
+        font-size: .8em;
+        padding: .4em 1em;
+        font-family: helvetica;
+      }
+    }
+  }
+}

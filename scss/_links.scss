@@ -1,0 +1,37 @@
+
+/* Links */
+a,
+a:visited,
+a:active {
+  color: $green;
+  text-decoration:none;
+  outline: none;
+  @include smoothen(color, .25s, ease-out);
+    &:hover,
+    &:focus {
+      text-decoration: none;
+      color: $green;
+    }
+    // &:active {
+    //   top:1px;
+    //   position:relative;
+    // }
+    &.btn {
+      color: white;
+      &:hover,
+      &:focus {
+        color: white;
+      }
+    }
+}
+
+/* Addresses outline displayed oddly in Chrome */
+a:focus {
+  outline: thin dotted;
+}
+
+/* Improves readability when focused and also mouse hovered in all browsers
+people.opera.com/patrickl/experiments/keyboard/test */
+a:hover, a:active {
+  outline: 0;
+}

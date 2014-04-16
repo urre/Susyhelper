@@ -1,0 +1,15 @@
+{
+  "name": "huskvarna",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-shell": "~0.2.2",
+    "grunt-contrib": "~0.7.0",
+    "grunt-contrib-clean": "~0.4.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-autoprefixer": "~0.7.2",
+    "connect-livereload": "~0.4.0",
+    "load-grunt-tasks": "~0.4.0",
+    "grunt-contrib-sass": "~0.7.3"
+  }
+}
