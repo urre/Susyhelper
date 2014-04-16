@@ -3,7 +3,8 @@
 
 Just a simple structure/helper for debugging Susy2 grids
 
-+ [Susy2 responsive grids](susy.oddbird.net)
++ [Susy2 responsive grids](susy.oddbird.net), using Susy via Bower
++ Not using Compass or Susy Ruby Gem
 + 4 cols mobile, 6 cols tablet and 12 cols desktop
 + Vertical Rhythm and typographic scale using [Typesettings](http://typesettings.io/)
 + 6 px baseline overlay using [Baseholdit](basehold.it). Inspiration from [teehan+lax -> Designing Faster with a Baseline Grid](http://www.teehanlax.com/blog/designing-faster-with-a-baseline-grid/)
