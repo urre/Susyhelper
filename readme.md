@@ -12,9 +12,9 @@ Just a simple structure/helper for debugging Susy2 grids
 
 ## Install
 
-Install Grunt `npm install -g grunt-cli`
-Install Grunt plugins `npm install`
-Runt watcher to compile and live reload `grunt watch:dev`
++ Install Grunt `npm install -g grunt-cli`
++ Install Grunt plugins `npm install`
++ Run watcher to compile and live reload `grunt watch:dev`. Or use default Grunt task.
 
 ![Susyhelper](https://dl.dropboxusercontent.com/u/1162759/susyhelper.gif)
 
