@@ -23,7 +23,7 @@ Just a simple structure/helper for debugging Susy2 grids
 
 ### Usage
 
-[Toggle overlay on/off](https://github.com/urre/Susyhelper/blob/gh-pages/scss/_grid.scss#L15)
+Toggle overlay on/off by setting ´griddebug = true´ [base.scss](https://github.com/urre/Susyhelper/blob/gh-pages/scss/_grid.scss#L15)
 
 ### Demo
 
