@@ -109,6 +109,16 @@
 
      }
 
+     @include breakpoint($desktop-extra-wide) {
+
+         @if $griddebug == true {
+             @include container($large 86em show-columns);
+         } @else {
+           @include container($large 86em);
+         }
+
+      }
+
 }
 
 /**
@@ -129,7 +139,7 @@
   .c {
     @include breakpoint($mobile) {
       &:before {
-        content: 'Mobile portrait 320px: 4 cols';
+        content: 'Mobile portrait 320px: ☳ 4 cols ⇿ 94%';
         position: fixed;
         top: 0;
         right: 0;
@@ -143,7 +153,7 @@
     }
     @include breakpoint($mobile-horizontal) {
       &:before {
-        content: 'Mobile horizontal 480px: 4 cols';
+        content: 'Mobile horizontal 480px: ☳ 4 cols ⇿ 94%';
         position: fixed;
         top: 0;
         right: 0;
@@ -157,7 +167,7 @@
     }
     @include breakpoint($tablet-portrait) {
       &:before {
-        content: 'Tablet portrait 768px: 6 cols';
+        content: 'Tablet portrait 768px: ☳ 6 cols ⇿ 94%';
         position: fixed;
         top: 0;
         right: 0;
@@ -171,7 +181,7 @@
     }
     @include breakpoint($tablet-horizontal) {
       &:before {
-        content: 'Tablet 1024px: 6 cols';
+        content: 'Tablet 1024px: ☳ 6 cols ⇿ 94%';
         position: fixed;
         top: 0;
         right: 0;
@@ -185,7 +195,7 @@
     }
     @include breakpoint($desktop) {
       &:before {
-        content: 'Desktop > 1170px: 12 cols';
+        content: 'Desktop > 1170px: ☳ 12 cols ⇿ 76em';
         position: fixed;
         top: 0;
         right: 0;
@@ -199,12 +209,26 @@
     }
     @include breakpoint($desktop-wide) {
       &:before {
-        content: 'Desktop wide > 1500px: 12 cols';
+        content: 'Desktop wide > 1500px: ☳ 12 cols ⇿ 76em';
         position: fixed;
         top: 0;
         right: 0;
         z-index: 10;
         background-color: red;
+        color: white;
+        font-size: .8em;
+        padding: .4em 1em;
+        font-family: helvetica;
+      }
+    }
+    @include breakpoint($desktop-extra-wide) {
+      &:before {
+        content: 'Desktop wide > 1800px: ☳ 12 cols ⇿ 86em';
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 10;
+        background-color: LightSalmon;
         color: white;
         font-size: .8em;
         padding: .4em 1em;
