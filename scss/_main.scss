@@ -69,9 +69,12 @@ header[role="banner"] {
 	text-align: center;
 
 	h1 {
-		@include setType(4, $ms-up4);
+		@include setType(4, $ms-up3);
 		padding-bottom: emRhythm(8, $ms-up1);
 		padding-top   : emRhythm(8, $ms-up1);
+		@media (min-width: 90em) {
+			@include setType(8, $ms-up4);
+		}
 	}
 }
 
