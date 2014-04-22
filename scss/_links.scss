@@ -3,14 +3,14 @@
 a,
 a:visited,
 a:active {
-  color: $green;
+  color: $profile;
   text-decoration:none;
   outline: none;
   @include smoothen(color, .25s, ease-out);
     &:hover,
     &:focus {
       text-decoration: none;
-      color: $green;
+      color: $profile;
     }
     // &:active {
     //   top:1px;

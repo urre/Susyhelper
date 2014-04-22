@@ -1,7 +1,2065 @@
-@charset "UTF-8";/*! normalize.css v3.0.1 | MIT License | git.io/normalize */html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}h1{font-size:2em;margin:0.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace, monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:bold}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block}audio,canvas,video{display:inline-block;*display:inline;*zoom:1}audio:not([controls]){display:none}[hidden]{display:none}html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}html,button,input,select,textarea{font-family:sans-serif;color:#222}body{margin:0;font-size:1em;line-height:1.4}::-moz-selection{background:#fe57a1;color:#fff;text-shadow:none}::selection{background:#fe57a1;color:#fff;text-shadow:none}a{color:#00e}a:visited{color:#551a8b}a:hover{color:#06e}a:focus{outline:thin dotted}a:hover,a:active{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}blockquote{margin:1em 40px}dfn{font-style:italic}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}ins{background:#ff9;color:#000;text-decoration:none}mark{background:#ff0;color:#000;font-style:italic;font-weight:bold}pre,code,kbd,samp{font-family:monospace, serif;_font-family:'courier new', monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:before,q:after{content:"";content:none}small{font-size:85%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}ul,ol{margin:1em 0;padding:0 0 0 40px}dd{margin:0 0 0 40px}nav ul,nav ol{list-style:none;list-style-image:none;margin:0;padding:0}img{border:0;-ms-interpolation-mode:bicubic;vertical-align:middle}svg:not(:root){overflow:hidden}figure{margin:0}form{margin:0}fieldset{border:0;margin:0;padding:0}label{cursor:pointer}legend{border:0;*margin-left:-7px;padding:0;white-space:normal}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal}button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;*overflow:visible}button[disabled],input[disabled]{cursor:default}input[type="checkbox"],input[type="radio"]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:0;*width:13px;*height:13px}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-search-cancel-button{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top;resize:vertical}input:invalid,textarea:invalid{background-color:#f0dddd}table{border-collapse:collapse;border-spacing:0}td{vertical-align:top}.chromeframe{margin:0.2em 0;background:#ccc;color:black;padding:0.2em 0}.ir{display:block;border:0;text-indent:-999em;overflow:hidden;background-color:transparent;background-repeat:no-repeat;text-align:left;direction:ltr;*line-height:0}.ir br{display:none}.hidden{display:none !important;visibility:hidden}.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}.invisible{visibility:hidden}.clearfix:before,.clearfix:after{content:"";display:table}.clearfix:after{clear:both}.clearfix{*zoom:1}@media print{*{background:transparent !important;color:black !important;-webkit-box-shadow:none !important;box-shadow:none !important;text-shadow:none !important;-webkit-filter:none !important;filter:none !important;-ms-filter:none !important}a,a:visited{text-decoration:underline}a[href]:after{content:" (" attr(href) ")"}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h2,h3{page-break-after:avoid}}html{font-size:100%;-webkit-text-size-adjust:100%}body{margin:0;padding:0;font-family:Georgia,"Times New Roman",serif;font-weight:400;line-height:1.5;color:#000}h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6{margin-top:0;padding-top:0;padding-bottom:0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:bold;text-transform:uppercase}h1,.h1{margin-bottom:0.75023em;font-size:1.9994em;line-height:1.12534}@media (min-width: 43.75em){h1,.h1{margin-bottom:0.53057em;font-size:2.82715em;line-height:1.06114}}@media (min-width: 56.25em){h1,.h1{margin-bottom:0.37523em;font-size:3.99758em;line-height:0.93807}}
-h2,.h2{margin-bottom:1.06082em;font-size:1.414em;line-height:1.32603}@media (min-width: 43.75em){h2,.h2{margin-bottom:0.75023em;font-size:1.9994em;line-height:1.12534}}@media (min-width: 56.25em){h2,.h2{margin-bottom:0.53057em;font-size:2.82715em;line-height:1.06114}}
-h3,.h3{margin-bottom:1.06082em;font-size:1.414em;line-height:1.32603}@media (min-width: 56.25em){h3,.h3{margin-bottom:0.75023em;font-size:1.9994em;line-height:1.12534}}
-h4,.h4{margin-bottom:1.06082em;font-size:1.414em;line-height:1.32603}h5,.h5,h6,.h6{margin-bottom:1.5em;font-size:1em;line-height:1.5}p{margin-top:0;margin-bottom:1.5em;padding-top:0;padding-bottom:0;-webkit-hyphens:auto;-moz-hyphens:auto;-ms-hyphens:auto;-o-hyphens:auto;hyphens:auto;word-wrap:break-word}small,.font-small{font-size:0.70721em;line-height:1.59075}em{font-style:italic}strong{font-weight:bold}blockquote{margin-top:1.5em;margin-bottom:1.5em;margin-left:-1.875em;padding-top:0;padding-bottom:0;padding-left:1.5em;border-left:6px solid gray;font-family:"Lucida Console",Monaco,monospace;font-weight:bold}blockquote footer cite:before{content:" – "}pre,code{font-family:"Lucida Console",Monaco,monospace}time,.time{text-transform:uppercase}ol,ul,dl{margin-top:0;margin-bottom:1.5em;margin-left:1.5em;padding-top:0;padding-bottom:0}ul ul,ol ol,dl dl{margin-left:0}ul{list-style:disc}ol{list-style:decimal}abbr{font-variant:small-caps;font-weight:600;text-transform:lowercase}abbr[title]:hover{cursor:help}hr{margin-top:1.5em;margin-bottom:0;border:none;border-top-color:#000;border-top-style:solid;border-top-width:1px;padding-top:1.4375em}object{max-width:100%;_width:100%}img{max-width:100%;_width:100%;height:auto;width:auto\9}img{border:none;-ms-interpolation-mode:bicubic}svg:not(:root){overflow:hidden}object,iframe{max-width:100%;_width:100%}*,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}a,a:visited,a:active{color:#568d5a;text-decoration:none;outline:none;-webkit-transition:color 0.25s ease-out;transition:color 0.25s ease-out}a:hover,a:focus,a:visited:hover,a:visited:focus,a:active:hover,a:active:focus{text-decoration:none;color:#568d5a}a.btn,a:visited.btn,a:active.btn{color:white}a.btn:hover,a.btn:focus,a:visited.btn:hover,a:visited.btn:focus,a:active.btn:hover,a:active.btn:focus{color:white}a:focus{outline:thin dotted}a:hover,a:active{outline:0}.c{max-width:76em;margin-left:auto;margin-right:auto}.c::after{content:" ";display:block;clear:both}@media (min-width: 320px){.c{max-width:94%;margin-left:auto;margin-right:auto;background-image:-webkit-gradient(linear, left top, right top, from(rgba(0,0,255,0.1)), color-stop(80%, rgba(77,77,255,0.1)), to(transparent));background-image:-webkit-linear-gradient(left, rgba(0,0,255,0.1), rgba(77,77,255,0.1) 80%, transparent 80%);background-image:linear-gradient(to right, rgba(0,0,255,0.1), rgba(77,77,255,0.1) 80%, transparent 80%);-webkit-background-size:26.31579%;background-size:26.31579%;-webkit-background-origin:content-box;background-origin:content-box;-webkit-background-clip:content-box;background-clip:content-box;background-position:left top}.c::after{content:" ";display:block;clear:both}}@media (min-width: 768px){.c{max-width:94%;margin-left:auto;margin-right:auto;background-image:-webkit-gradient(linear, left top, right top, from(rgba(0,0,255,0.1)), color-stop(80%, rgba(77,77,255,0.1)), to(transparent));background-image:-webkit-linear-gradient(left, rgba(0,0,255,0.1), rgba(77,77,255,0.1) 80%, transparent 80%);background-image:linear-gradient(to right, rgba(0,0,255,0.1), rgba(77,77,255,0.1) 80%, transparent 80%);-webkit-background-size:17.24138%;background-size:17.24138%;-webkit-background-origin:content-box;background-origin:content-box;-webkit-background-clip:content-box;background-clip:content-box;background-position:left top}.c::after{content:" ";display:block;clear:both}}@media (min-width: 1200px){.c{max-width:76em;margin-left:auto;margin-right:auto;background-image:-webkit-gradient(linear, left top, right top, from(rgba(0,0,255,0.1)), color-stop(80%, rgba(77,77,255,0.1)), to(transparent));background-image:-webkit-linear-gradient(left, rgba(0,0,255,0.1), rgba(77,77,255,0.1) 80%, transparent 80%);background-image:linear-gradient(to right, rgba(0,0,255,0.1), rgba(77,77,255,0.1) 80%, transparent 80%);-webkit-background-size:8.47458%;background-size:8.47458%;-webkit-background-origin:content-box;background-origin:content-box;-webkit-background-clip:content-box;background-clip:content-box;background-position:left top}.c::after{content:" ";display:block;clear:both}}
-html{background-image:url(http://basehold.it/i/6/ff0000)}@media (min-width: 320px){.c:before{content:'Mobile portrait 320px: 4 cols';position:fixed;top:0;right:0;z-index:10;background-color:DarkSeaGreen;color:white;font-size:.8em;padding:.4em 1em;font-family:helvetica}}@media (min-width: 480px){.c:before{content:'Mobile horizontal 480px: 4 cols';position:fixed;top:0;right:0;z-index:10;background-color:coral;color:white;font-size:.8em;padding:.4em 1em;font-family:helvetica}}@media (min-width: 768px){.c:before{content:'Tablet portrait 768px: 6 cols';position:fixed;top:0;right:0;z-index:10;background-color:olive;color:white;font-size:.8em;padding:.4em 1em;font-family:helvetica}}@media (min-width: 1024px){.c:before{content:'Tablet 1024px: 6 cols';position:fixed;top:0;right:0;z-index:10;background-color:green;color:white;font-size:.8em;padding:.4em 1em;font-family:helvetica}}@media (min-width: 1200px){.c:before{content:'Desktop > 1170px: 12 cols';position:fixed;top:0;right:0;z-index:10;background-color:blue;color:white;font-size:.8em;padding:.4em 1em;font-family:helvetica}}@media (min-width: 1500px){.c:before{content:'Desktop wide > 1500px: 12 cols';position:fixed;top:0;right:0;z-index:10;background-color:red;color:white;font-size:.8em;padding:.4em 1em;font-family:helvetica}}
-@font-face{font-family:'Clear Sans Light';src:url("../fonts/clearsans-1.00/EOT/ClearSans-Light.eot");src:url("../fonts/clearsans-1.00/EOT/ClearSans-Light.eot?iefix") format("eot"),url("../fonts/clearsans-1.00/WOFF/ClearSans-Light.woff") format("woff"),url("../fonts/clearsans-1.00/TTF/ClearSans-Light.ttf") format("truetype"),url("../fonts/clearsans-1.00/SVG/ClearSans-Light.svg#svgFontName") format("svg")}@font-face{font-family:'Clear Sans Medium';src:url("../fonts/clearsans-1.00/EOT/ClearSans-Medium.eot");src:url("../fonts/clearsans-1.00/EOT/ClearSans-Medium.eot?iefix") format("eot"),url("../fonts/clearsans-1.00/WOFF/ClearSans-Medium.woff") format("woff"),url("../fonts/clearsans-1.00/TTF/ClearSans-Medium.ttf") format("truetype"),url("../fonts/clearsans-1.00/SVG/ClearSans-Medium.svg#svgFontName") format("svg")}@font-face{font-family:'Clear Sans Regular';src:url("../fonts/clearsans-1.00/EOT/ClearSans-Regular.eot");src:url("../fonts/clearsans-1.00/EOT/ClearSans-Regular.eot?iefix") format("eot"),url("../fonts/clearsans-1.00/WOFF/ClearSans-Regular.woff") format("woff"),url("../fonts/clearsans-1.00/TTF/ClearSans-Regular.ttf") format("truetype"),url("../fonts/clearsans-1.00/SVG/ClearSans-Regular.svg#svgFontName") format("svg")}@font-face{font-family:'Clear Sans Bold';src:url("../fonts/clearsans-1.00/EOT/ClearSans-Bold.eot");src:url("../fonts/clearsans-1.00/EOT/ClearSans-Bold.eot?iefix") format("eot"),url("../fonts/clearsans-1.00/WOFF/ClearSans-Bold.woff") format("woff"),url("../fonts/clearsans-1.00/TTF/ClearSans-Bold.ttf") format("truetype"),url("../fonts/clearsans-1.00/SVG/ClearSans-Bold.svg#svgFontName") format("svg")}strong,b{font-weight:bold}i,em,blockquote{font-style:italic}html,body{min-height:100%}html{-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;overflow-y:scroll}::-moz-selection{background:#646464;color:#fff;text-shadow:none}::selection{background:#646464;color:#fff;text-shadow:none}::-moz-selection:window-inactive{background:#dcdcdc;color:#323232}::selection:window-inactive{background:#dcdcdc;color:#323232}img::-moz-selection{background:transparent}img::selection{background:transparent}img::-moz-selection{background:transparent}h1,h2,h3,h4,h5,h6{-moz-font-feature-settings:"liga=1, kern=1";-ms-font-feature-settings:"liga" 1, "kern" 1;text-rendering:optimizeLegibility;font-weight:normal}p,ul,ol,dl,blockquote,.content img{-webkit-hyphens:auto;-moz-hyphens:auto;-ms-hyphens:auto;hyphens:auto}abbr{text-transform:lowercase;font-variant:small-caps;letter-spacing:0.1em;cursor:help}sub,sup{vertical-align:baseline;position:relative;font-size:65%;line-height:0}sub{bottom:-0.25em}sup{top:-0.5em}blockquote{margin:1.5em 0 1.5em 1.80203em;color:#5a5a5a;position:relative}blockquote:before{-webkit-font-smoothing:antialiased;color:#8c8c8c;font-size:3.60406em;position:absolute;font-style:italic;content:"\201C";line-height:1em;left:-0.60180em;top:0}ul,ol{margin-left:1.5em}ul{list-style-type:circle}ol{list-style-type:lower-roman}h6{font-weight:bold;margin:0 0 1.5em}pre,code{font:.9375em/1.26562em monospace, monospace;-webkit-font-smoothing:subpixel-antialiased}pre{color:#5a5a5a;padding:1.5em 1em;margin-bottom:3em;line-height:1em;white-space:pre;white-space:pre-wrap;word-wrap:break-word}img{margin:.5em auto 1.5em auto;display:block}.highlight{border-color:#000;background:#fffccf;color:#000;margin-top:3em;padding:0 .2em}a{text-decoration:none;color:#505050}a:hover{color:#000}a:active{outline:none}sup a{text-decoration:none}h1,h2,h3,h4,h5{font-family:"Clear Sans Light",sans-serif;font-weight:normal;word-wrap:break-word;color:#568d5a;text-transform:none;-webkit-font-smoothing:antialiased}p{-webkit-font-smoothing:antialiased;font-family:"Clear Sans Light",sans-serif;font-weight:normal}object{max-width:100%;_width:100%}img{max-width:100%;_width:100%;height:auto;width:auto\9}img{border:none;-ms-interpolation-mode:bicubic}svg:not(:root){overflow:hidden}object,iframe{max-width:100%;_width:100%}body{width:100%;height:100%;position:relative;margin:0 auto;min-height:100%;font-family:"Clear Sans Light",sans-serif;font-weight:normal}header[role="banner"]{margin-top:2.121em;margin-bottom:0em;padding-bottom:0.37511em;padding-top:0.37511em;background:rgba(255,255,255,0.1);text-align:center}header[role="banner"] h1{font-size:3.99758em;line-height:0.37523;padding-bottom:2.12164em;padding-top:2.12164em}main[role="main"] article[role="article"]{width:66.10169%;float:left;margin-right:1.69492%;padding-bottom:3.37602em;padding-top:3.37602em}@media (min-width: 320px){main[role="main"] article[role="article"]{width:47.36842%;float:left;margin-right:5.26316%}}@media (min-width: 480px){main[role="main"] article[role="article"]{width:47.36842%;float:left;margin-right:5.26316%}}@media (min-width: 768px) and (max-width: 1024px){main[role="main"] article[role="article"]{width:48.27586%;float:left;margin-right:3.44828%}}@media (min-width: 1024px){main[role="main"] article[role="article"]{width:48.27586%;float:left;margin-right:3.44828%}}@media (min-width: 1200px){main[role="main"] article[role="article"]{width:66.10169%;float:left;margin-right:1.69492%}}main[role="main"] aside{width:32.20339%;float:left;margin-right:1.69492%;float:right;margin-right:0;padding-bottom:3.37602em;padding-top:3.37602em}@media (min-width: 320px){main[role="main"] aside{width:47.36842%;float:left;margin-right:5.26316%;float:right;margin-right:0}}@media (min-width: 480px){main[role="main"] aside{width:47.36842%;float:left;margin-right:5.26316%;float:right;margin-right:0}}@media (min-width: 768px) and (max-width: 1024px){main[role="main"] aside{width:48.27586%;float:left;margin-right:3.44828%;float:right;margin-right:0}}@media (min-width: 1024px){main[role="main"] aside{width:48.27586%;float:left;margin-right:3.44828%;float:right;margin-right:0}}@media (min-width: 1200px){main[role="main"] aside{width:32.20339%;float:left;margin-right:1.69492%;float:right;margin-right:0}}
-footer[role="contentinfo"]{padding-bottom:1.50045em;padding-top:1.12534em;text-align:center}footer[role="contentinfo"] p{font-size:1em;line-height:1.5;padding-bottom:3.37602em;padding-top:3.37602em}
+@charset "UTF-8";
+/**
+ * http://susydocs.oddbird.net/
+ */
+/**
+ * necolas.github.io/normalize.css/
+ */
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/normalize-css\/_normalize\.scss}line{font-family:\000039}}
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/normalize-css\/_normalize\.scss}line{font-family:\0000319}}
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/normalize-css\/_normalize\.scss}line{font-family:\0000332}}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/normalize-css\/_normalize\.scss}line{font-family:\0000352}}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/normalize-css\/_normalize\.scss}line{font-family:\0000365}}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/normalize-css\/_normalize\.scss}line{font-family:\0000375}}
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/normalize-css\/_normalize\.scss}line{font-family:\0000387}}
+a {
+  background: transparent;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/normalize-css\/_normalize\.scss}line{font-family:\0000395}}
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/normalize-css\/_normalize\.scss}line{font-family:\00003107}}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/normalize-css\/_normalize\.scss}line{font-family:\00003115}}
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/normalize-css\/_normalize\.scss}line{font-family:\00003124}}
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/normalize-css\/_normalize\.scss}line{font-family:\00003133}}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/normalize-css\/_normalize\.scss}line{font-family:\00003142}}
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/normalize-css\/_normalize\.scss}line{font-family:\00003151}}
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/normalize-css\/_normalize\.scss}line{font-family:\00003159}}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/normalize-css\/_normalize\.scss}line{font-family:\00003167}}
+sup {
+  top: -0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/normalize-css\/_normalize\.scss}line{font-family:\00003171}}
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/normalize-css\/_normalize\.scss}line{font-family:\00003182}}
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/normalize-css\/_normalize\.scss}line{font-family:\00003190}}
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/normalize-css\/_normalize\.scss}line{font-family:\00003201}}
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/normalize-css\/_normalize\.scss}line{font-family:\00003209}}
+hr {
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/normalize-css\/_normalize\.scss}line{font-family:\00003219}}
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/normalize-css\/_normalize\.scss}line{font-family:\00003227}}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/normalize-css\/_normalize\.scss}line{font-family:\00003250}}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/normalize-css\/_normalize\.scss}line{font-family:\00003264}}
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/normalize-css\/_normalize\.scss}line{font-family:\00003275}}
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/normalize-css\/_normalize\.scss}line{font-family:\00003288}}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/normalize-css\/_normalize\.scss}line{font-family:\00003300}}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/normalize-css\/_normalize\.scss}line{font-family:\00003309}}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/normalize-css\/_normalize\.scss}line{font-family:\00003320}}
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/normalize-css\/_normalize\.scss}line{font-family:\00003332}}
+input[type="checkbox"],
+input[type="radio"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/normalize-css\/_normalize\.scss}line{font-family:\00003344}}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/normalize-css\/_normalize\.scss}line{font-family:\00003355}}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/normalize-css\/_normalize\.scss}line{font-family:\00003368}}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/normalize-css\/_normalize\.scss}line{font-family:\00003377}}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/normalize-css\/_normalize\.scss}line{font-family:\00003388}}
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/normalize-css\/_normalize\.scss}line{font-family:\00003397}}
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/normalize-css\/_normalize\.scss}line{font-family:\00003406}}
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/normalize-css\/_normalize\.scss}line{font-family:\00003417}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/normalize-css\/_normalize\.scss}line{font-family:\00003422}}
+td,
+th {
+  padding: 0;
+}
+
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ *
+ * Detailed information about this CSS: h5bp.com/css
+ *
+ * ==|== normalize ==========================================================
+ */
+/* =============================================================================
+   HTML5 display definitions
+   ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\0000318}}
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\0000319}}
+audio, canvas, video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\0000320}}
+audio:not([controls]) {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\0000321}}
+[hidden] {
+  display: none;
+}
+
+/* =============================================================================
+   Base
+   ========================================================================== */
+/*
+ * 1. Correct text resizing oddly in IE6/7 when body font-size is set using em units
+ * 2. Prevent iOS text size adjust on device orientation change, without disabling user zoom: h5bp.com/g
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\0000333}}
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\0000335}}
+html, button, input, select, textarea {
+  font-family: sans-serif;
+  color: #222;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\0000337}}
+body {
+  margin: 0;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection declarations have to be separate
+ * Also: hot pink! (or customize the background color to match your design)
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\0000345}}
+::-moz-selection {
+  background: #fe57a1;
+  color: #fff;
+  text-shadow: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\0000346}}
+::-moz-selection {
+  background: #fe57a1;
+  color: #fff;
+  text-shadow: none;
+}
+::selection {
+  background: #fe57a1;
+  color: #fff;
+  text-shadow: none;
+}
+
+/* =============================================================================
+   Links
+   ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\0000353}}
+a {
+  color: #00e;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\0000354}}
+a:visited {
+  color: #551a8b;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\0000355}}
+a:hover {
+  color: #06e;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\0000356}}
+a:focus {
+  outline: thin dotted;
+}
+
+/* Improve readability when focused and hovered in all browsers: h5bp.com/h */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\0000359}}
+a:hover, a:active {
+  outline: 0;
+}
+
+/* =============================================================================
+   Typography
+   ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\0000366}}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\0000368}}
+b, strong {
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\0000370}}
+blockquote {
+  margin: 1em 40px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\0000372}}
+dfn {
+  font-style: italic;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\0000374}}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\0000376}}
+ins {
+  background: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\0000378}}
+mark {
+  background: #ff0;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* Redeclare monospace font family: h5bp.com/j */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\0000381}}
+pre, code, kbd, samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+}
+
+/* Improve readability of pre-formatted text in all browsers */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\0000384}}
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\0000386}}
+q {
+  quotes: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\0000387}}
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\0000389}}
+small {
+  font-size: 85%;
+}
+
+/* Position subscript and superscript content without affecting line-height: h5bp.com/k */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\0000392}}
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\0000393}}
+sup {
+  top: -0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\0000394}}
+sub {
+  bottom: -0.25em;
+}
+
+/* =============================================================================
+   Lists
+   ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003101}}
+ul, ol {
+  margin: 1em 0;
+  padding: 0 0 0 40px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003102}}
+dd {
+  margin: 0 0 0 40px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003103}}
+nav ul, nav ol {
+  list-style: none;
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* =============================================================================
+   Embedded content
+   ========================================================================== */
+/*
+ * 1. Improve image quality when scaled in IE7: h5bp.com/d
+ * 2. Remove the gap between images and borders on image containers: h5bp.com/i/440
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003115}}
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+  vertical-align: middle;
+}
+
+/*
+ * Correct overflow not hidden in IE9
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003121}}
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* =============================================================================
+   Figures
+   ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003128}}
+figure {
+  margin: 0;
+}
+
+/* =============================================================================
+   Forms
+   ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003135}}
+form {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003136}}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Indicate that 'label' will shift focus to the associated form element */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003139}}
+label {
+  cursor: pointer;
+}
+
+/*
+ * 1. Correct color not inheriting in IE6/7/8/9
+ * 2. Correct alignment displayed oddly in IE6/7
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003146}}
+legend {
+  border: 0;
+  *margin-left: -7px;
+  padding: 0;
+  white-space: normal;
+}
+
+/*
+ * 1. Correct font-size not inheriting in all browsers
+ * 2. Remove margins in FF3/4 S5 Chrome
+ * 3. Define consistent vertical alignment display in all browsers
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003154}}
+button, input, select, textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+
+/*
+ * 1. Define line-height as normal to match FF3/4 (set using !important in the UA stylesheet)
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003160}}
+button, input {
+  line-height: normal;
+}
+
+/*
+ * 1. Display hand cursor for clickable form elements
+ * 2. Allow styling of clickable form elements in iOS
+ * 3. Correct inner spacing displayed oddly in IE7 (doesn't effect IE6)
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003168}}
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+  *overflow: visible;
+}
+
+/*
+ * Re-set default cursor for disabled elements
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003174}}
+button[disabled], input[disabled] {
+  cursor: default;
+}
+
+/*
+ * Consistent box sizing and appearance
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003180}}
+input[type="checkbox"], input[type="radio"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  *width: 13px;
+  *height: 13px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003181}}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003182}}
+input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+/*
+ * Remove inner padding and border in FF3/4: h5bp.com/l
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003188}}
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/*
+ * 1. Remove default vertical scrollbar in IE6/7/8/9
+ * 2. Allow only vertical resizing
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003195}}
+textarea {
+  overflow: auto;
+  vertical-align: top;
+  resize: vertical;
+}
+
+/* Colors for form validity */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003199}}
+input:invalid, textarea:invalid {
+  background-color: #f0dddd;
+}
+
+/* =============================================================================
+   Tables
+   ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003206}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003207}}
+td {
+  vertical-align: top;
+}
+
+/* =============================================================================
+   Chrome Frame Prompt
+   ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003214}}
+.chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: black;
+  padding: 0.2em 0;
+}
+
+/* ==|== primary styles =====================================================
+   Author:
+   ========================================================================== */
+/* ==|== media queries ======================================================
+   EXAMPLE Media Query for Responsive Design.
+   This example overrides the primary ('mobile first') styles
+   Modify as content requires.
+   ========================================================================== */
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+/* ==|== non-semantic helper classes ========================================
+   Please define your styles before this section.
+   ========================================================================== */
+/* For image replacement */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003253}}
+.ir {
+  display: block;
+  border: 0;
+  text-indent: -999em;
+  overflow: hidden;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  text-align: left;
+  direction: ltr;
+  *line-height: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003254}}
+.ir br {
+  display: none;
+}
+
+/* Hide from both screenreaders and browsers: h5bp.com/u */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003257}}
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/* Hide only visually, but have it available for screenreaders: h5bp.com/v */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003260}}
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003263}}
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* Hide visually and from screenreaders, but maintain layout */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003266}}
+.invisible {
+  visibility: hidden;
+}
+
+/* Contain floats: h5bp.com/q */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003269}}
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003270}}
+.clearfix:after {
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003271}}
+.clearfix {
+  *zoom: 1;
+}
+
+/* ==|== print styles =======================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+@media print {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003281}}
+  * {
+    background: transparent !important;
+    color: black !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    -webkit-filter: none !important;
+    filter: none !important;
+    -ms-filter: none !important;
+  }
+
+  /* Black prints faster: h5bp.com/s */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003282}}
+  a, a:visited {
+    text-decoration: underline;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003283}}
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003284}}
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003285}}
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+    content: "";
+  }
+
+  /* Don't show links for images, or javascript/internal links */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003286}}
+  pre, blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003287}}
+  thead {
+    display: table-header-group;
+  }
+
+  /* h5bp.com/t */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003288}}
+  tr, img {
+    page-break-inside: avoid;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003289}}
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003291}}
+  p, h2, h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_html5bp\.scss}line{font-family:\00003292}}
+  h2, h3 {
+    page-break-after: avoid;
+  }
+}
+/**
+ * http://typesettings.io/index.html
+ */
+/**
+* ==============================================================================
+* Typesettings
+* ==============================================================================
+* A Sass toolkit that sets type in Ems based on modular scale, vertical rhythm,
+* and responsive ratio based headlines. Oh, and pixel borders that maintain
+* rhythm.
+*
+* Release Versions: https://github.com/ianrose/typesettings/releases
+* Github: https://github.com/ianrose/typesettings
+* License: The MIT License (MIT)
+*
+* Inspired by and used stuff from:
+* https://github.com/typeplate/typeplate.github.io
+* https://github.com/csswizardry/typecsset
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/typesettings\/_typesettings\.scss}line{font-family:\00003166}}
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/typesettings\/_typesettings\.scss}line{font-family:\00003171}}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: black;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/typesettings\/_typesettings\.scss}line{font-family:\00003180}}
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/typesettings\/_typesettings\.scss}line{font-family:\00003204}}
+h1, .h1 {
+  margin-bottom: 0.75023em;
+  font-size: 1.9994em;
+  line-height: 1.12534;
+}
+@media (min-width: 43.75em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/typesettings\/_typesettings\.scss}line{font-family:\00003204}}
+  h1, .h1 {
+    margin-bottom: 0.53057em;
+    font-size: 2.82715em;
+    line-height: 1.06114;
+  }
+}
+@media (min-width: 56.25em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/typesettings\/_typesettings\.scss}line{font-family:\00003204}}
+  h1, .h1 {
+    margin-bottom: 0.37523em;
+    font-size: 3.99758em;
+    line-height: 0.93807;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/typesettings\/_typesettings\.scss}line{font-family:\00003220}}
+h2, .h2 {
+  margin-bottom: 1.06082em;
+  font-size: 1.414em;
+  line-height: 1.32603;
+}
+@media (min-width: 43.75em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/typesettings\/_typesettings\.scss}line{font-family:\00003220}}
+  h2, .h2 {
+    margin-bottom: 0.75023em;
+    font-size: 1.9994em;
+    line-height: 1.12534;
+  }
+}
+@media (min-width: 56.25em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/typesettings\/_typesettings\.scss}line{font-family:\00003220}}
+  h2, .h2 {
+    margin-bottom: 0.53057em;
+    font-size: 2.82715em;
+    line-height: 1.06114;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/typesettings\/_typesettings\.scss}line{font-family:\00003235}}
+h3, .h3 {
+  margin-bottom: 1.06082em;
+  font-size: 1.414em;
+  line-height: 1.32603;
+}
+@media (min-width: 56.25em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/typesettings\/_typesettings\.scss}line{font-family:\00003235}}
+  h3, .h3 {
+    margin-bottom: 0.75023em;
+    font-size: 1.9994em;
+    line-height: 1.12534;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/typesettings\/_typesettings\.scss}line{font-family:\00003245}}
+h4, .h4 {
+  margin-bottom: 1.06082em;
+  font-size: 1.414em;
+  line-height: 1.32603;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/typesettings\/_typesettings\.scss}line{font-family:\00003250}}
+h5, .h5,
+h6, .h6 {
+  margin-bottom: 1.5em;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/typesettings\/_typesettings\.scss}line{font-family:\00003256}}
+p {
+  margin-top: 0;
+  margin-bottom: 1.5em;
+  padding-top: 0;
+  padding-bottom: 0;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -o-hyphens: auto;
+  hyphens: auto;
+  word-wrap: break-word;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/typesettings\/_typesettings\.scss}line{font-family:\00003283}}
+small,
+.font-small {
+  font-size: 0.70721em;
+  line-height: 1.59075;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/typesettings\/_typesettings\.scss}line{font-family:\00003288}}
+em {
+  font-style: italic;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/typesettings\/_typesettings\.scss}line{font-family:\00003292}}
+strong {
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/typesettings\/_typesettings\.scss}line{font-family:\00003296}}
+blockquote {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  margin-left: -1.875em;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 1.5em;
+  border-left: 6px solid gray;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/typesettings\/_typesettings\.scss}line{font-family:\00003309}}
+blockquote footer cite:before {
+  content: " – ";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/typesettings\/_typesettings\.scss}line{font-family:\00003316}}
+pre,
+code {
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/typesettings\/_typesettings\.scss}line{font-family:\00003321}}
+time,
+.time {
+  text-transform: uppercase;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/typesettings\/_typesettings\.scss}line{font-family:\00003326}}
+ol,
+ul,
+dl {
+  margin-top: 0;
+  margin-bottom: 1.5em;
+  margin-left: 1.5em;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/typesettings\/_typesettings\.scss}line{font-family:\00003336}}
+ul ul,
+ol ol,
+dl dl {
+  margin-left: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/typesettings\/_typesettings\.scss}line{font-family:\00003342}}
+ul {
+  list-style: disc;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/typesettings\/_typesettings\.scss}line{font-family:\00003346}}
+ol {
+  list-style: decimal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/typesettings\/_typesettings\.scss}line{font-family:\00003351}}
+abbr {
+  font-variant: small-caps;
+  font-weight: 600;
+  text-transform: lowercase;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/typesettings\/_typesettings\.scss}line{font-family:\00003358}}
+abbr[title]:hover {
+  cursor: help;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/typesettings\/_typesettings\.scss}line{font-family:\00003364}}
+hr {
+  margin-top: 1.5em;
+  margin-bottom: 0;
+  border: none;
+  border-top-color: black;
+  border-top-style: solid;
+  border-top-width: 1px;
+  padding-top: 1.4375em;
+}
+
+/**
+ * https://github.com/Team-Sass/breakpoint
+ */
+/**
+ * Base
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_media\.scss}line{font-family:\000031}}
+object {
+  max-width: 100%;
+  _width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_media\.scss}line{font-family:\000036}}
+img {
+  max-width: 100%;
+  _width: 100%;
+  height: auto;
+  width: auto\9;
+  /* ie8 */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_media\.scss}line{font-family:\0000313}}
+img {
+  border: none;
+  -ms-interpolation-mode: bicubic;
+  /* Improve IE's resizing */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_media\.scss}line{font-family:\0000318}}
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Correct IE9 overflow */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_media\.scss}line{font-family:\0000323}}
+object, iframe {
+  max-width: 100%;
+  _width: 100%;
+}
+
+/**
+ *  Box sizing
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_base\.scss}line{font-family:\000035}}
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/**
+ * Colors
+ */
+/**
+ * Type settings http://typesettings.io/index.html
+ */
+/* Links */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_links\.scss}line{font-family:\000033}}
+a,
+a:visited,
+a:active {
+  color: #333333;
+  text-decoration: none;
+  outline: none;
+  -webkit-transition: color 0.25s ease-out;
+  transition: color 0.25s ease-out;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_links\.scss}line{font-family:\0000310}}
+a:hover, a:focus,
+a:visited:hover,
+a:visited:focus,
+a:active:hover,
+a:active:focus {
+  text-decoration: none;
+  color: #333333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_links\.scss}line{font-family:\0000319}}
+a.btn,
+a:visited.btn,
+a:active.btn {
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_links\.scss}line{font-family:\0000321}}
+a.btn:hover, a.btn:focus,
+a:visited.btn:hover,
+a:visited.btn:focus,
+a:active.btn:hover,
+a:active.btn:focus {
+  color: white;
+}
+
+/* Addresses outline displayed oddly in Chrome */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_links\.scss}line{font-family:\0000329}}
+a:focus {
+  outline: thin dotted;
+}
+
+/* Improves readability when focused and also mouse hovered in all browsers
+people.opera.com/patrickl/experiments/keyboard/test */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_links\.scss}line{font-family:\0000335}}
+a:hover, a:active {
+  outline: 0;
+}
+
+/**
+ * Media query device constants
+ */
+/**
+ * Susy2 settings ☳
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_grid\.scss}line{font-family:\0000373}}
+.c {
+  /**
+   * Change settings per context/breakpoint. A few different options:
+   * https://github.com/ericam/susy/issues/256
+   */
+  max-width: 76em;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/susy\/sass\/susy\/output\/support\/_clearfix\.scss}line{font-family:\0000312}}
+.c::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+@media (min-width: 320px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_grid\.scss}line{font-family:\0000373}}
+  .c {
+    max-width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 255, 0.1)), color-stop(80%, rgba(77, 77, 255, 0.1)), to(transparent));
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 255, 0.1), rgba(77, 77, 255, 0.1) 80%, transparent 80%);
+    background-image: linear-gradient(to right, rgba(0, 0, 255, 0.1), rgba(77, 77, 255, 0.1) 80%, transparent 80%);
+    -webkit-background-size: 26.31579%;
+    background-size: 26.31579%;
+    -webkit-background-origin: content-box;
+    background-origin: content-box;
+    -webkit-background-clip: content-box;
+    background-clip: content-box;
+    background-position: left top;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/susy\/sass\/susy\/output\/support\/_clearfix\.scss}line{font-family:\0000312}}
+  .c::after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_grid\.scss}line{font-family:\0000373}}
+  .c {
+    max-width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 255, 0.1)), color-stop(80%, rgba(77, 77, 255, 0.1)), to(transparent));
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 255, 0.1), rgba(77, 77, 255, 0.1) 80%, transparent 80%);
+    background-image: linear-gradient(to right, rgba(0, 0, 255, 0.1), rgba(77, 77, 255, 0.1) 80%, transparent 80%);
+    -webkit-background-size: 17.24138%;
+    background-size: 17.24138%;
+    -webkit-background-origin: content-box;
+    background-origin: content-box;
+    -webkit-background-clip: content-box;
+    background-clip: content-box;
+    background-position: left top;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/susy\/sass\/susy\/output\/support\/_clearfix\.scss}line{font-family:\0000312}}
+  .c::after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_grid\.scss}line{font-family:\0000373}}
+  .c {
+    max-width: 76em;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 255, 0.1)), color-stop(80%, rgba(77, 77, 255, 0.1)), to(transparent));
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 255, 0.1), rgba(77, 77, 255, 0.1) 80%, transparent 80%);
+    background-image: linear-gradient(to right, rgba(0, 0, 255, 0.1), rgba(77, 77, 255, 0.1) 80%, transparent 80%);
+    -webkit-background-size: 8.47458%;
+    background-size: 8.47458%;
+    -webkit-background-origin: content-box;
+    background-origin: content-box;
+    -webkit-background-clip: content-box;
+    background-clip: content-box;
+    background-position: left top;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/components\/susy\/sass\/susy\/output\/support\/_clearfix\.scss}line{font-family:\0000312}}
+  .c::after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+}
+
+/**
+ * Container
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_grid\.scss}line{font-family:\00003123}}
+html {
+  background-image: url(http://basehold.it/i/6/ff0000);
+}
+
+@media (min-width: 320px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_grid\.scss}line{font-family:\00003131}}
+  .c:before {
+    content: 'Mobile portrait 320px: 4 cols';
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    background-color: DarkSeaGreen;
+    color: white;
+    font-size: .8em;
+    padding: .4em 1em;
+    font-family: helvetica;
+  }
+}
+@media (min-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_grid\.scss}line{font-family:\00003145}}
+  .c:before {
+    content: 'Mobile horizontal 480px: 4 cols';
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    background-color: coral;
+    color: white;
+    font-size: .8em;
+    padding: .4em 1em;
+    font-family: helvetica;
+  }
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_grid\.scss}line{font-family:\00003159}}
+  .c:before {
+    content: 'Tablet portrait 768px: 6 cols';
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    background-color: olive;
+    color: white;
+    font-size: .8em;
+    padding: .4em 1em;
+    font-family: helvetica;
+  }
+}
+@media (min-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_grid\.scss}line{font-family:\00003173}}
+  .c:before {
+    content: 'Tablet 1024px: 6 cols';
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    background-color: green;
+    color: white;
+    font-size: .8em;
+    padding: .4em 1em;
+    font-family: helvetica;
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_grid\.scss}line{font-family:\00003187}}
+  .c:before {
+    content: 'Desktop > 1170px: 12 cols';
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    background-color: blue;
+    color: white;
+    font-size: .8em;
+    padding: .4em 1em;
+    font-family: helvetica;
+  }
+}
+@media (min-width: 1500px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_grid\.scss}line{font-family:\00003201}}
+  .c:before {
+    content: 'Desktop wide > 1500px: 12 cols';
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    background-color: red;
+    color: white;
+    font-size: .8em;
+    padding: .4em 1em;
+    font-family: helvetica;
+  }
+}
+
+/**
+ * Type
+ */
+/**
+ * Clear Sans Light
+ */
+@font-face {
+  font-family: 'Clear Sans Light';
+  src: url("../fonts/clearsans-1.00/EOT/ClearSans-Light.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/clearsans-1.00/EOT/ClearSans-Light.eot?iefix") format("eot"), url("../fonts/clearsans-1.00/WOFF/ClearSans-Light.woff") format("woff"), url("../fonts/clearsans-1.00/TTF/ClearSans-Light.ttf") format("truetype"), url("../fonts/clearsans-1.00/SVG/ClearSans-Light.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+}
+/**
+ * Clear Sans Medium
+ */
+@font-face {
+  font-family: 'Clear Sans Medium';
+  src: url("../fonts/clearsans-1.00/EOT/ClearSans-Medium.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/clearsans-1.00/EOT/ClearSans-Medium.eot?iefix") format("eot"), url("../fonts/clearsans-1.00/WOFF/ClearSans-Medium.woff") format("woff"), url("../fonts/clearsans-1.00/TTF/ClearSans-Medium.ttf") format("truetype"), url("../fonts/clearsans-1.00/SVG/ClearSans-Medium.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+}
+/**
+ * Clear Sans Regular
+ */
+@font-face {
+  font-family: 'Clear Sans Regular';
+  src: url("../fonts/clearsans-1.00/EOT/ClearSans-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/clearsans-1.00/EOT/ClearSans-Regular.eot?iefix") format("eot"), url("../fonts/clearsans-1.00/WOFF/ClearSans-Regular.woff") format("woff"), url("../fonts/clearsans-1.00/TTF/ClearSans-Regular.ttf") format("truetype"), url("../fonts/clearsans-1.00/SVG/ClearSans-Regular.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+}
+/**
+ * Clear Sans Bold
+ */
+@font-face {
+  font-family: 'Clear Sans Bold';
+  src: url("../fonts/clearsans-1.00/EOT/ClearSans-Bold.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/clearsans-1.00/EOT/ClearSans-Bold.eot?iefix") format("eot"), url("../fonts/clearsans-1.00/WOFF/ClearSans-Bold.woff") format("woff"), url("../fonts/clearsans-1.00/TTF/ClearSans-Bold.ttf") format("truetype"), url("../fonts/clearsans-1.00/SVG/ClearSans-Bold.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/type\/_type_base\.scss}line{font-family:\000031}}
+strong, b {
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/type\/_type_base\.scss}line{font-family:\000035}}
+i, em, blockquote {
+  font-style: italic;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/type\/_type_base\.scss}line{font-family:\000039}}
+html, body {
+  min-height: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/type\/_type_base\.scss}line{font-family:\0000313}}
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  overflow-y: scroll;
+}
+
+/*
+  SELECTIONS
+  --------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/type\/_type_base\.scss}line{font-family:\0000323}}
+::-moz-selection {
+  background: #646464;
+  color: white;
+  text-shadow: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/type\/_type_base\.scss}line{font-family:\0000329}}
+::-moz-selection {
+  background: #646464;
+  color: white;
+  text-shadow: none;
+}
+::selection {
+  background: #646464;
+  color: white;
+  text-shadow: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/type\/_type_base\.scss}line{font-family:\0000335}}
+::-moz-selection:window-inactive {
+  background: gainsboro;
+  color: #323232;
+}
+::selection:window-inactive {
+  background: gainsboro;
+  color: #323232;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/type\/_type_base\.scss}line{font-family:\0000340}}
+img::-moz-selection {
+  background: transparent;
+}
+img::selection {
+  background: transparent;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/type\/_type_base\.scss}line{font-family:\0000344}}
+img::-moz-selection {
+  background: transparent;
+}
+
+/*
+  BASE TYPOGRAPHY
+  --------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/type\/_type_base\.scss}line{font-family:\0000352}}
+h1, h2, h3, h4, h5, h6 {
+  -moz-font-feature-settings: "liga=1, kern=1";
+  -ms-font-feature-settings: "liga" 1, "kern" 1;
+  text-rendering: optimizeLegibility;
+  font-weight: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/type\/_type_base\.scss}line{font-family:\0000359}}
+p, ul, ol, dl, blockquote, .content img {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/type\/_type_base\.scss}line{font-family:\0000365}}
+abbr {
+  text-transform: lowercase;
+  font-variant: small-caps;
+  letter-spacing: 0.1em;
+  cursor: help;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/type\/_type_base\.scss}line{font-family:\0000372}}
+sub, sup {
+  vertical-align: baseline;
+  position: relative;
+  font-size: 65%;
+  line-height: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/type\/_type_base\.scss}line{font-family:\0000379}}
+sub {
+  bottom: -0.25em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/type\/_type_base\.scss}line{font-family:\0000383}}
+sup {
+  top: -0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/type\/_type_base\.scss}line{font-family:\0000387}}
+blockquote {
+  margin: 1.5em 0 1.5em 1.80203em;
+  color: #5a5a5a;
+  position: relative;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/type\/_type_base\.scss}line{font-family:\0000393}}
+blockquote:before {
+  -webkit-font-smoothing: antialiased;
+  color: #8c8c8c;
+  font-size: 3.60406em;
+  position: absolute;
+  font-style: italic;
+  content: "\201C";
+  line-height: 1em;
+  left: -0.60180em;
+  top: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/type\/_type_base\.scss}line{font-family:\00003105}}
+ul, ol {
+  margin-left: 1.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/type\/_type_base\.scss}line{font-family:\00003109}}
+ul {
+  list-style-type: circle;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/type\/_type_base\.scss}line{font-family:\00003113}}
+ol {
+  list-style-type: lower-roman;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/type\/_type_base\.scss}line{font-family:\00003119}}
+h6 {
+  font-weight: bold;
+  margin: 0 0 1.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/type\/_type_base\.scss}line{font-family:\00003124}}
+pre, code {
+  font: .9375em/1.26562em monospace, monospace;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/type\/_type_base\.scss}line{font-family:\00003129}}
+pre {
+  color: #5a5a5a;
+  padding: 1.5em 1em;
+  margin-bottom: 3em;
+  line-height: 1em;
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/type\/_type_base\.scss}line{font-family:\00003139}}
+img {
+  margin: .5em auto 1.5em auto;
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/type\/_type_base\.scss}line{font-family:\00003144}}
+.highlight {
+  border-color: black;
+  background: #fffccf;
+  color: black;
+  margin-top: 3em;
+  padding: 0 .2em;
+}
+
+/*
+  LINKS
+  --------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/type\/_type_base\.scss}line{font-family:\00003156}}
+a {
+  text-decoration: none;
+  color: #505050;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/type\/_type_base\.scss}line{font-family:\00003162}}
+a:hover {
+  color: black;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/type\/_type_base\.scss}line{font-family:\00003168}}
+a:active {
+  outline: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/type\/_type_base\.scss}line{font-family:\00003172}}
+sup a {
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/type\/_type\.scss}line{font-family:\000032}}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Clear Sans Light", sans-serif;
+  font-weight: normal;
+  word-wrap: break-word;
+  color: #333333;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/type\/_type\.scss}line{font-family:\0000318}}
+p {
+  -webkit-font-smoothing: antialiased;
+  font-family: "Clear Sans Light", sans-serif;
+  font-weight: normal;
+}
+
+/**
+ * Media
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_media\.scss}line{font-family:\000031}}
+object {
+  max-width: 100%;
+  _width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_media\.scss}line{font-family:\000036}}
+img {
+  max-width: 100%;
+  _width: 100%;
+  height: auto;
+  width: auto\9;
+  /* ie8 */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_media\.scss}line{font-family:\0000313}}
+img {
+  border: none;
+  -ms-interpolation-mode: bicubic;
+  /* Improve IE's resizing */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_media\.scss}line{font-family:\0000318}}
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Correct IE9 overflow */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_media\.scss}line{font-family:\0000323}}
+object, iframe {
+  max-width: 100%;
+  _width: 100%;
+}
+
+/**
+ * Main
+ */
+/**
+ * Example, using Susy2 and responsive context
+
+.container {
+	@extend %wrap;
+
+	.col {
+		@include span(6);
+		@include breakpoint($mobile) {
+			@include span(2 of 4);
+		}
+		@include breakpoint($tablet-portrait) {
+			@include span(3 of 6);
+		}
+		@include breakpoint($desktop) {
+			@include span(6 of 12);
+		}
+	}
+
+	.coltwo {
+		@include span(last 6);
+		@include breakpoint($mobile) {
+			@include span(last 2 of 4);
+		}
+		@include breakpoint($tablet-portrait) {
+			@include span(last 3 of 6);
+		}
+		@include breakpoint($desktop) {
+			@include span(last 6 of 12);
+		}
+	}
+
+}
+
+/** Example of last explicit
+
+&:last-child {
+	@include last;
+}
+
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_main\.scss}line{font-family:\0000347}}
+body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin: 0 auto;
+  min-height: 100%;
+  font-family: "Clear Sans Light", sans-serif;
+  font-weight: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_main\.scss}line{font-family:\0000360}}
+header[role="banner"] {
+  margin-top: 2.121em;
+  margin-bottom: 0em;
+  padding-bottom: 0.37511em;
+  padding-top: 0.37511em;
+  background: rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_main\.scss}line{font-family:\0000371}}
+header[role="banner"] h1 {
+  font-size: 3.99758em;
+  line-height: 0.37523;
+  padding-bottom: 2.12164em;
+  padding-top: 2.12164em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_main\.scss}line{font-family:\0000379}}
+main[role="main"] article[role="article"] {
+  width: 66.10169%;
+  float: left;
+  margin-right: 1.69492%;
+  padding-bottom: 3.37602em;
+  padding-top: 3.37602em;
+}
+@media (min-width: 320px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_main\.scss}line{font-family:\0000379}}
+  main[role="main"] article[role="article"] {
+    width: 47.36842%;
+    float: left;
+    margin-right: 5.26316%;
+  }
+}
+@media (min-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_main\.scss}line{font-family:\0000379}}
+  main[role="main"] article[role="article"] {
+    width: 47.36842%;
+    float: left;
+    margin-right: 5.26316%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_main\.scss}line{font-family:\0000379}}
+  main[role="main"] article[role="article"] {
+    width: 48.27586%;
+    float: left;
+    margin-right: 3.44828%;
+  }
+}
+@media (min-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_main\.scss}line{font-family:\0000379}}
+  main[role="main"] article[role="article"] {
+    width: 48.27586%;
+    float: left;
+    margin-right: 3.44828%;
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_main\.scss}line{font-family:\0000379}}
+  main[role="main"] article[role="article"] {
+    width: 66.10169%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_main\.scss}line{font-family:\00003103}}
+main[role="main"] aside {
+  width: 32.20339%;
+  float: left;
+  margin-right: 1.69492%;
+  float: right;
+  margin-right: 0;
+  padding-bottom: 3.37602em;
+  padding-top: 3.37602em;
+}
+@media (min-width: 320px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_main\.scss}line{font-family:\00003103}}
+  main[role="main"] aside {
+    width: 47.36842%;
+    float: left;
+    margin-right: 5.26316%;
+    float: right;
+    margin-right: 0;
+  }
+}
+@media (min-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_main\.scss}line{font-family:\00003103}}
+  main[role="main"] aside {
+    width: 47.36842%;
+    float: left;
+    margin-right: 5.26316%;
+    float: right;
+    margin-right: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_main\.scss}line{font-family:\00003103}}
+  main[role="main"] aside {
+    width: 48.27586%;
+    float: left;
+    margin-right: 3.44828%;
+    float: right;
+    margin-right: 0;
+  }
+}
+@media (min-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_main\.scss}line{font-family:\00003103}}
+  main[role="main"] aside {
+    width: 48.27586%;
+    float: left;
+    margin-right: 3.44828%;
+    float: right;
+    margin-right: 0;
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_main\.scss}line{font-family:\00003103}}
+  main[role="main"] aside {
+    width: 32.20339%;
+    float: left;
+    margin-right: 1.69492%;
+    float: right;
+    margin-right: 0;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_main\.scss}line{font-family:\00003134}}
+footer[role="contentinfo"] {
+  padding-bottom: 1.50045em;
+  padding-top: 1.12534em;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/labs\/susyhelper\/scss\/_main\.scss}line{font-family:\00003138}}
+footer[role="contentinfo"] p {
+  font-size: 1em;
+  line-height: 1.5;
+  padding-bottom: 3.37602em;
+  padding-top: 3.37602em;
+}
