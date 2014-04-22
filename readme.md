@@ -21,6 +21,10 @@ Just a simple structure/helper for debugging Susy2 grids
 + Install Grunt plugins `npm install`
 + Run watcher to compile and live reload `grunt watch:dev`. Or use default Grunt task.
 
+### Usage
+
+[Toggle overlay on/off](https://github.com/urre/Susyhelper/blob/gh-pages/scss/_grid.scss#L15)
+
 ### Demo
 
 [Check out Susyhelper](http://urre.github.io/Susyhelper/)
